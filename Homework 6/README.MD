@@ -7,6 +7,7 @@
 
 ## Prerequisites
 
+breast_cancer_classification.py: The Python script that performs the breast cancer classification using Random Forest and PCA.
 Before running the script, you must install these packages:
 
 - [scikit-learn](https://scikit-learn.org/stable/install.html)
@@ -27,9 +28,6 @@ pip install scikit-learn numpy matplotlib yellowbrick
 - python regularization.py
 
 # All scores
-- Cross Validation - score : .7691752923789884
 
-- Lasso - score : 0.7694662948678218 alpha : 0.9911541375888815
-
-- Ridge Regression Model - score : 0.7705762098293304 alpha : 0.9969599962313797
-## They perform similar but Ridge regression model produces better results. 
+Accuracy: 0.95
+Accuracy per feature: 0.47
