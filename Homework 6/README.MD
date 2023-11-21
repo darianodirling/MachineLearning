@@ -31,3 +31,10 @@ pip install scikit-learn numpy matplotlib yellowbrick
 
 Accuracy: 0.95
 Accuracy per feature: 0.47
+
+## Random Forest Classifier Hyperparameters
+
+The Random Forest Classifier achieved the best results with the following hyperparameters:
+
+- **Number of Estimators (n_estimators):** 8
+- **Criterion:** Entropy
